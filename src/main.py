@@ -38,7 +38,7 @@ def main():
     print("\nEvaluating U-Net-KAN-LSTM model...")
     unet_kan_lstm_instance = unet_kan_lstm(input_shape)
     unet_kan_lstm_instance.build(input_shape=(None, 240, 240, 3))
-    unet_kan_lstm_weights_path = os.path.join(model_dir, "unet_kan_lstm_weights_fold_1.weights.h5")
+    unet_kan_lstm_weights_path = os.path.join(model_dir, "u_kan_lstm.weights.h5")
     unet_kan_lstm_instance.load_weights(unet_kan_lstm_weights_path)
     unet_kan_lstm_metrics = evaluate_model(unet_kan_lstm_instance, X_test, Y_test, input_shape, "U-Net-KAN-LSTM")
 
@@ -46,7 +46,7 @@ def main():
     print("\nEvaluating U-Net-KAN-LSTM-MobileNetV2 model...")
     unet_kan_lstm_mobilenetv2_instance = unet_kan_lstm_mobilenetv2(input_shape)
     unet_kan_lstm_mobilenetv2_instance.build(input_shape=(None, 240, 240, 3))
-    unet_kan_lstm_mobilenetv2_weights_path = os.path.join(model_dir, "unet_kan_lstm_mobilenetv2_weights_fold_1.weights.h5")
+    unet_kan_lstm_mobilenetv2_weights_path = os.path.join(model_dir, "u_kan_lstm_mobilenetv2.weights.h5")
     unet_kan_lstm_mobilenetv2_instance.load_weights(unet_kan_lstm_mobilenetv2_weights_path)
     unet_kan_lstm_mobilenetv2_metrics = evaluate_model(unet_kan_lstm_mobilenetv2_instance, X_test, Y_test, input_shape, "U-Net-KAN-LSTM-MobileNetV2")
 
