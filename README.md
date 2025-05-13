@@ -50,7 +50,6 @@ python main.py
 │   ├── unet_kan_model.py               # U-Net-KAN model definition
 │   ├── unet_kan_lstm.py                # U-Net-KAN-LSTM model definition
 │   ├── unet_kan_lstm_mobilenetv2.py   # U-Net-KAN-LSTM-MobileNetV2 model definition
-│   ├── train.py                        # Placeholder for training logic (not used)
 │   ├── evaluate.py                     # Model evaluation and visualization
 │   ├── distillation.py                 # Student model definition
 │   ├── utils.py                        # Shared utility functions
