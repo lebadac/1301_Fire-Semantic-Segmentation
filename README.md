@@ -37,7 +37,7 @@ Place the Chino et al. dataset in
 ```
 
 ## Usage
-Run the main script to load data, train models, perform distillation, and evaluate:
+Run the main script to load pre-trained weights and evaluate models on the test dataset:
 ```
 python main.py
 ```
