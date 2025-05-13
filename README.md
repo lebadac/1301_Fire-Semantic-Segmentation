@@ -14,7 +14,7 @@ It also includes a **teacher-student distillation** process to train a lightweig
 
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
-- Dataset: `Chino_v2` (place in `./data/Chino_v2`). You can find it [here](https://github.com/matiassingers/awesome-readme).
+- Dataset: `Chino` (place in `./data/Chino`). You can find the dataset attached with the [paper](https://arxiv.org/pdf/1506.03495).
 
 ---
 
