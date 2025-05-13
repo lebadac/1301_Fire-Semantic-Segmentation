@@ -1,12 +1,12 @@
 import os
 from data_loader import load_video_data, get_dataset_splits
-from unet_model import unet_model
-from unet_kan_model import unet_kan
-from unet_kan_lstm import unet_kan_lstm
-from unet_kan_lstm_mobilenetv2 import unet_kan_lstm_mobilenetv2
+from unet import unet_model
+from u_kan import unet_kan
+from u_kan_lstm import unet_kan_lstm
+from u_kan_lstm_mobilenetv2 import unet_kan_lstm_mobilenetv2
 from train import train_model
 from evaluate import evaluate_model
-from distillation import train_student, build_student_model
+from knowledge_distiilation import train_student, build_student_model
 
 def main():
     # Configuration
