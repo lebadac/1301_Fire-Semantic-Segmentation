@@ -22,7 +22,7 @@ def main():
     print("\nEvaluating U-Net model...")
     unet_model_instance = unet_model(input_shape)
     unet_model_instance.build(input_shape=(None, 240, 240, 3))
-    unet_weights_path = os.path.join(model_dir, "unet_weights_fold_1.weights.h5")
+    unet_weights_path = os.path.join(model_dir, "unet.weights.h5")
     unet_model_instance.load_weights(unet_weights_path)
     unet_metrics = evaluate_model(unet_model_instance, X_test, Y_test, input_shape, "U-Net")
 
@@ -30,7 +30,7 @@ def main():
     print("\nEvaluating U-Net-KAN model...")
     unet_kan_instance = unet_kan(input_shape)
     unet_kan_instance.build(input_shape=(None, 240, 240, 3))
-    unet_kan_weights_path = os.path.join(model_dir, "unet_kan_weights_fold_1.weights.h5")
+    unet_kan_weights_path = os.path.join(model_dir, "u_kan.weights.h5")
     unet_kan_instance.load_weights(unet_kan_weights_path)
     unet_kan_metrics = evaluate_model(unet_kan_instance, X_test, Y_test, input_shape, "U-Net-KAN")
 
