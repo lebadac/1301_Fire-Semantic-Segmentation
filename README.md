@@ -60,7 +60,7 @@ python main.py
 │   ├── unetweights.h5
 │   ├── u_kan.weights.h5
 │   ├── u_kan_lstm.weights.h5
-│   ├── ukan_lstm_mobilenetv2.weights.h5
+│   ├── u_kan_lstm_mobilenetv2.weights.h5
 │   └── distilled_student_model_weights.weights.h5
 │
 ├── requirements.txt                    # Dependencies
