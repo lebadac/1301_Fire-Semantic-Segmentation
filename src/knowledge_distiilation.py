@@ -102,7 +102,7 @@ def fuse_up(skip, up_input, out_channels):
     x = layers.Conv2D(out_channels, (3, 3), padding='same', use_bias=False)(x)
     return x
 
-def build_student_model(input_shape=(240, 240, 3), kan_dim=16, num_kan_layers=2):
+def build_student_model(input_shape, kan_dim=16, num_kan_layers=2):
     """
     Builds the student model with MobileNetV2 encoder and lightweight KAN block.
 
