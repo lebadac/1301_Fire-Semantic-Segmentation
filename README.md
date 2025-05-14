@@ -106,5 +106,7 @@ python main.py
 
 - Visualization of predictions is saved as PNG files during evaluation.
 
+- If having problems with the file `weights.h5`, please download it [here](https://drive.google.com/drive/folders/1uFZ_qdeCEUr0p-H1r1GJcNQhVtoq-Knm?usp=sharing).
+
 
 
