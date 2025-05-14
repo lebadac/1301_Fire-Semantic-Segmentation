@@ -50,7 +50,7 @@ This dataset includes approximately 1,479 fire images extracted from **57 video 
 
 In addition to the fire images, a total of **605 non-fire images** were collected from various publicly available datasets. The details are provided in our paper.
 
-This subset represents approximately **30%** of the full dataset. You can explore it [here](https://drive.google.com/drive/folders/1zuY82Zy_Lnuw0zZhwmRVDS6atlWGXd-3?usp=sharing).
+This subset represents approximately **30%** of the full dataset. You can explore it [here](https://drive.google.com/drive/folders/1zwaItYmTh7iXhilCfpm4fZcW_i4_QnBg?usp=sharing).
 
 ### 3.2. Test Dataset
 
