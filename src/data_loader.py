@@ -63,6 +63,12 @@ def get_dataset_splits(dataset_dir):
         dict: Dictionary with 'test' video list.
     """
     video_sets = {
+        # "train": [
+        #     '360___Video_of_a_Compartment_Fire_Burner_Shakedown_Video_Download',
+        #     '360___Video_of_a_Fire_involving_Parallel_Privacy_Fences_on_August_1,_2019_Video_Download',
+        #     'nofire1',
+        #     'fire1', 'fire2'
+        # ],  # Add this line if wanting to train
         "test": ['Chino']
     }
     return video_sets
