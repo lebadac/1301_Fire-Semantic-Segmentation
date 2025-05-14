@@ -123,7 +123,7 @@ python main.py
 *Comparison with state-of-the-art segmentation methods on the Chino et al. test set.*
 
 
-**Notes**
+### 6. Notes
 - Update the dataset path in main.py to match your local setup.
 
 - Model weights are saved in saved_weights/ during training.
