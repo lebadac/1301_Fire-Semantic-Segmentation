@@ -33,7 +33,9 @@ pip install -r requirements.txt
 
 ### Train Dataset
 
-This dataset includes **1,479 fire images** extracted from **57 video clips**. Among them, **40 videos** were manually labeled using the Labelme tool, and these labeled folders are named according to their original video filenames.
+#### Fire
+
+This dataset includes approximately 1,479 fire images extracted from **57 video clips**. Among them, **40 videos** were manually labeled using the [Labelme](https://github.com/wkentaro/labelme) tool, and these labeled folders are named according to their original video filenames.
 
 | **Source**            | **# Videos** | **Indoor / Outdoor** | **Short / Long Dist.** | **Low / High Act.** | 🔗 **Link** |
 |-----------------------|--------------|-----------------------|-------------------------|----------------------|-------------|
@@ -43,6 +45,12 @@ This dataset includes **1,479 fire images** extracted from **57 video clips**. A
 | NIST                  | 4            | 3 / 1                 | 2 / 2                   | 4 / 0                | [Link](https://www.nist.gov/programs-projects/national-fire-research-laboratory-advanced-metrology/360-degree-video-fire) |
 | Muhammad et al.       | 17           | 0 / 17                | 11 / 6                  | 3 / 14               | [Link](https://github.com/hayatkhan8660-maker/Fire_Seg_Dataset) |
 | **Total**             | **57**       | **10 / 47**           | **39 / 18**             | **40 / 17**          |             |
+
+#### Non-fire
+
+In addition to the fire images, a total of **605 non-fire images** were collected from various publicly available datasets. The details are provided in the corresponding paper.
+
+This subset represents approximately **30%** of the full dataset. You can explore it [here](https://drive.google.com/drive/folders/1zuY82Zy_Lnuw0zZhwmRVDS6atlWGXd-3?usp=sharing).
 
 ### Test Dataset
 
