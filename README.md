@@ -20,11 +20,11 @@ It also includes a **teacher-student distillation** process to train a lightweig
 
 ## 2. Installation
 
-**2.1. Clone the repository:**
+**Step 1: Clone the repository:**
 ```
 git clone https://github.com/lebadac/1301_Fire-Semantic-Segmentation.git
    ```
-**2.2. Install dependencies:**
+**Step 2: Install dependencies:**
 ```
 pip install -r requirements.txt
 ```
