@@ -14,7 +14,7 @@ It also includes a **teacher-student distillation** process to train a lightweig
 
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
-- Test Dataset: `test/Chino` (place in `./data/firedataset`). You can find the dataset attached with the [paper](https://arxiv.org/pdf/1506.03495).
+- Test Dataset: `test/Chino` (place in `./data/firevideo`). You can find the dataset attached with the [paper](https://arxiv.org/pdf/1506.03495).
 
 ---
 
@@ -29,11 +29,13 @@ git clone https://github.com/lebadac/1301_Fire-Semantic-Segmentation.git
 pip install -r requirements.txt
 ```
 
-**3. Prepare dataset:**
+## 3. Prepare Dataset
 
-Place the Chino et al. dataset in 
+### Test Dataset
+
+Place the **Chino et al. dataset** in the following directory:
 ```
-./data/Chino
+./data/firevideo
 ```
 
 ## Usage
