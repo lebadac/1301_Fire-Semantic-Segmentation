@@ -99,6 +99,18 @@ python main.py
 - U_KAN_LSTM_MobileNetV2: U-Net with MobileNetV2 encoder and KAN-LSTM bottleneck (used as teacher model).
 - Student Model: Lightweight model trained via knowledge distillation from the teacher model.
 
+## 5. Result
+
+| **Model**          | **Pixel Acc.** | **Mean Acc.** | **Mean IoU** | **FWIoU** | **FPS**  |
+|--------------------|----------------|---------------|--------------|-----------|----------|
+| U-Net              | 92.65          | 77.55         | 64.34        | 88.40     | 72.05    |
+| U-KAN              | 93.33          | 89.15         | 69.37        | 89.78     | 97.63    |
+| U-KAN-LSTM         | 95.32          | 86.42         | 73.61        | 92.20     | 99.46    |
+| Teacher Model      | 97.88          | 89.80         | 80.72        | 94.68     | 66.05    |
+| **Student Model**  | **97.25**      | **89.41**     | **81.63**    | **95.03** | **147.02**|
+
+*Comparison of semantic segmentation performance across models.*
+
 **Notes**
 - Update the dataset path in main.py to match your local setup.
 
