@@ -1,6 +1,6 @@
 # Temporal to Spatial Knowledge Distillation for Real-time Fire Segmentation: An Approach involving Kolmogorov-Arnold Networks
 
-This repository contains the source code for fire segmentation using the customized models on the **Chino_v2** dataset:
+This repository contains the source code for fire segmentation using the customized models on the **firevideo** dataset:
 - U-Net
 - U-Net-KAN
 - U-Net-KAN-LSTM
