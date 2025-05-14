@@ -51,10 +51,11 @@ python main.py
 │   ├── unet_model.py                   # U-Net model definition
 │   ├── unet_kan_model.py               # U-Net-KAN model definition
 │   ├── unet_kan_lstm.py                # U-Net-KAN-LSTM model definition
-│   ├── unet_kan_lstm_mobilenetv2.py   # U-Net-KAN-LSTM-MobileNetV2 model definition
-│   ├── evaluate.py                     # Model evaluation
+│   ├── unet_kan_lstm_mobilenetv2.py    # U-Net-KAN-LSTM-MobileNetV2 model definition
 │   ├── distillation.py                 # Student model definition
 │   ├── utils.py                        # Shared utility functions
+│   ├── training_process.py             # Training process definition
+│   ├── evaluate.py                     # Model evaluation
 │   └── main.py                         # Main script for evaluation
 │
 ├── saved_weights/                      # Pre-trained model weights
