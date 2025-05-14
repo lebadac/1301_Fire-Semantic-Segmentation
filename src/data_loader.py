@@ -6,7 +6,7 @@ from skimage.io import imread
 from skimage.color import rgb2gray
 from skimage.transform import resize
 
-def load_video_data(dataset_dir, video_list, subset, img_height=240, img_width=240, img_channels=3):
+def load_video_data(dataset_dir, video_list, subset, img_height=288, img_width=288, img_channels=3):
     """
     Loads and preprocesses video data from the specified dataset directory.
 
