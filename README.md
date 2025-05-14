@@ -14,7 +14,7 @@ It also includes a **teacher-student distillation** process to train a lightweig
 
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
-- Dataset: `Chino` (place in `./data/Chino`). You can find the dataset attached with the [paper](https://arxiv.org/pdf/1506.03495).
+- Test Dataset: `test/Chino` (place in `./data/firedataset`). You can find the dataset attached with the [paper](https://arxiv.org/pdf/1506.03495).
 
 ---
 
@@ -50,7 +50,7 @@ python main.py
 │   ├── unet_kan_model.py               # U-Net-KAN model definition
 │   ├── unet_kan_lstm.py                # U-Net-KAN-LSTM model definition
 │   ├── unet_kan_lstm_mobilenetv2.py   # U-Net-KAN-LSTM-MobileNetV2 model definition
-│   ├── evaluate.py                     # Model evaluation and visualization
+│   ├── evaluate.py                     # Model evaluation
 │   ├── distillation.py                 # Student model definition
 │   ├── utils.py                        # Shared utility functions
 │   └── main.py                         # Main script for evaluation
