@@ -100,7 +100,7 @@ python main.py
 - Student Model: Lightweight model trained via knowledge distillation from the teacher model.
 
 ## 5. Result
-
+### 5.1. Individual Modules
 | **Model**          | **Pixel Acc.** | **Mean Acc.** | **Mean IoU** | **FWIoU** | **FPS**  |
 |--------------------|----------------|---------------|--------------|-----------|----------|
 | U-Net              | 92.65          | 77.55         | 64.34        | 88.40     | 72.05    |
@@ -110,6 +110,18 @@ python main.py
 | **Student Model**  | **97.25**      | **89.41**     | **81.63**    | **95.03** | **147.02**|
 
 *Comparison of semantic segmentation performance across models.*
+### 5.2. Comparison with State-of-the-Art Segmentation Methods
+
+| **Method**              | **Pixel Acc.** | **Mean Acc.** | **Mean IoU**  | **FWIoU**   |
+|-------------------------|----------------|---------------|---------------|-------------|
+| SegNet                  | 84.63          | 75.92         | 80.41         | 87.66       |
+| FCN                     | 85.76          | 75.47         | 72.65         | 89.20       |
+| PSPNet                  | 88.17          | 78.62         | 74.19         | 89.58       |
+| Muhammad et al.         | 94.54          | 85.27         | **83.35**     | 93.96       |
+| **Student Model**       | **97.25**      | **89.41**     | 81.63         | **95.03**   |
+
+*Comparison with state-of-the-art segmentation methods on the Chino et al. test set.*
+
 
 **Notes**
 - Update the dataset path in main.py to match your local setup.
@@ -117,6 +129,8 @@ python main.py
 - Model weights are saved in saved_weights/ during training.
 
 - Visualization of predictions is saved as PNG files during evaluation.
+
+- The FPS can be different because of running on different hardware. However, the relative speed (fast or slow) between models is still accurate.
 
 - If having problems with the file `weights.h5`, please download it [here](https://drive.google.com/drive/folders/1uFZ_qdeCEUr0p-H1r1GJcNQhVtoq-Knm?usp=sharing).
 
