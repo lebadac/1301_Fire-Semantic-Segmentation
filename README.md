@@ -10,7 +10,7 @@ It also includes a **teacher-student distillation** process to train a lightweig
 
 ---
 
-## Prerequisites
+## 1. Prerequisites
 
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
@@ -18,20 +18,20 @@ It also includes a **teacher-student distillation** process to train a lightweig
 
 ---
 
-## Installation
+## 2. Installation
 
-**1. Clone the repository:**
+**2.1. Clone the repository:**
 ```
 git clone https://github.com/lebadac/1301_Fire-Semantic-Segmentation.git
    ```
-**2. Install dependencies:**
+**2.2. Install dependencies:**
 ```
 pip install -r requirements.txt
 ```
 
 ## 3. Prepare Dataset
 
-### Train Dataset
+### 3.1. Train Dataset
 
 #### Fire
 
@@ -52,14 +52,14 @@ In addition to the fire images, a total of **605 non-fire images** were collecte
 
 This subset represents approximately **30%** of the full dataset. You can explore it [here](https://drive.google.com/drive/folders/1zuY82Zy_Lnuw0zZhwmRVDS6atlWGXd-3?usp=sharing).
 
-### Test Dataset
+### 3.2. Test Dataset
 
 Place the **Chino et al. dataset** in the following directory:
 ```
 ./data/firevideo
 ```
 
-## Usage
+## 4. Usage
 Run the main script to load pre-trained weights and evaluate models on the test dataset:
 ```
 python main.py
