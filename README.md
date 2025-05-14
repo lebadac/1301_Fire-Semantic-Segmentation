@@ -31,6 +31,19 @@ pip install -r requirements.txt
 
 ## 3. Prepare Dataset
 
+### Train Dataset
+
+This dataset includes **1,479 fire images** extracted from **57 video clips**. Among them, **40 videos** were manually labeled using the Labelme tool, and these labeled folders are named according to their original video filenames.
+
+| **Source**            | **# Videos** | **Indoor / Outdoor** | **Short / Long Dist.** | **Low / High Act.** | 🔗 **Link** |
+|-----------------------|--------------|-----------------------|-------------------------|----------------------|-------------|
+| Firesense             | 11           | 3 / 8                 | 10 / 1                  | 11 / 0               | [Link](https://zenodo.org/records/836749) |
+| KMU                   | 20           | 4 / 16                | 11 / 9                  | 19 / 1               | [Link](https://cvpr.kmu.ac.kr/) |
+| FireNet               | 5            | 0 / 5                 | 5 / 0                   | 3 / 2                | [Link](https://github.com/arpit-jadon/FireNet-LightWeight-Network-for-Fire-Detection?tab=readme-ov-file) |
+| NIST                  | 4            | 3 / 1                 | 2 / 2                   | 4 / 0                | [Link](https://www.nist.gov/programs-projects/national-fire-research-laboratory-advanced-metrology/360-degree-video-fire) |
+| Muhammad et al.       | 17           | 0 / 17                | 11 / 6                  | 3 / 14               | [Link](https://github.com/hayatkhan8660-maker/Fire_Seg_Dataset) |
+| **Total**             | **57**       | **10 / 47**           | **39 / 18**             | **40 / 17**          |             |
+
 ### Test Dataset
 
 Place the **Chino et al. dataset** in the following directory:
